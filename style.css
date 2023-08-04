@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Frank Ruhl Libre;
+}
+
+
+
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    background: #EEDDCC;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    color:  #34251F;
+    font-size: 24px;
+    padding-top: 5px;
+}
+
+
+.menu ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px 24px;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: lato;
+}
+
+.menuBar {
+    padding: 8px 32px;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    border: 1px solid #34251F;
+    background: transparent;
+}
+
+#headerArea {
+    background: #EEDDCC;
+}
+
+
+
+
+.headerContent {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.headerImg img{
+    width: 30vh;
+    padding-top: 30px;
+}
+
+
+.headertext h2 {
+    font-size: 64px;
+    font-weight: 900;
+    color: #000;
+}
+
+
+.headertext p {
+    padding-top: 10px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #000;
+    padding-top: 20px
+}
+
+.headerBtn {
+    padding: 8px 32px;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    background: #34251F;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.about {
+    margin-top: 30px;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.aboutContent h2 {
+    font-size: 64px;
+    font-weight: 900;
+    color: #000;
+}
+
+.aboutContent p {
+    font-size: 24px;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.aboutImg img {
+    width: 90%;
+}
+
+.best-fashion {
+    margin-top: 20px;
+}
+
+
+.bestfashion-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.best-fashion-img img {
+    width: 100%;
+}
+
+.bestText h2 {
+    font-size: 90px;
+    font-weight: 900;
+    color: #000;
+}
+
+
+.bestText p {
+    font-size: 35px;
+    font-weight: 400;
+    color: #000;
+}
+
+.best-seller {
+    background: #2C1915;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.best-seller-text h2 {
+    font-size: 90px;
+    font-weight: 700;
+    color: #fff;
+}
+
+
+.best-seller-text p {
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.Best-seller-Btn {
+    padding: 8px 32px;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    background: #34251F;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.best-Img img {
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.our-services {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.our-services h1 {
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+.our-list ul li {
+    display: inline-block;
+    padding: 15px 24px;
+    font-size: 24px
+}
+
+.our-Img img {
+    width: 40%;
+    margin-left: 1000px;
+    justify-content: space-evenly;
+}
+
+.deal-service {
+    margin-top: 30px;
+    background: #8B6E5A;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.deal-content {
+    padding-top: 40px;
+}
+
+.deal-content h2 {
+    font-size: 90px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.deal-content p {
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+
+
+.box1 {
+    width: 150px;
+    height: 150px;
+    background: #884F42;
+    border: 1px solid green;
+}
+
+.box2 {
+    width: 150px;
+    height: 150px;
+    background: #884F42;
+    border: 1px solid green;
+}
+.box3 {
+    width: 150px;
+    height: 150px;
+    background: #884F42;
+    border: 1px solid green;
+}
+
+.box h1 {
+    font-size: 90px;
+    text-align: center;
+}
+
+
+.box p {
+    font-size: px;
+    text-align: center;
+}
